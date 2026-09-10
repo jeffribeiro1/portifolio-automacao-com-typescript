@@ -20,10 +20,13 @@ function verificarIdade(usuarioAtual: usuario){
 verificarIdade(jogador);
 verificarIdade(jogadorVelho);
 
+// produto
+
+
 type PcGamer = {'processador': string, 'idade': number}
 type PcGamerantigo = {'processador': string, 'idade': number}
-let meuPc: PcGamer = {processador: 'i7', idade: 2};
-let meupcVelho: PcGamerantigo = {processador: 'i3', idade: 10};
+let meuPc: PcGamer = {processador: 'isete', idade: 2};
+let meupcVelho: PcGamerantigo = {processador: 'itrês', idade: 10};
 
 function verificarCompatibilidade (pcAtual: PcGamer){
     pcAtual.idade <= 2
@@ -32,6 +35,13 @@ function verificarCompatibilidade (pcAtual: PcGamer){
 }
 verificarCompatibilidade(meuPc);
 verificarCompatibilidade(meupcVelho);
+
+//
+
+
+
+
+
 
 
 
